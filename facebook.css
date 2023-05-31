@@ -1,0 +1,243 @@
+@import url('https://fonts.google.com/specimen/Roboto');
+*{
+    
+    padding: 0;
+        margin: 0;
+    }
+    :root{
+        --font-family1:'[Roboto]',sans-serif;
+        --Weights: 400,700;
+    }
+    body{
+        background-color: hsl(234, 29%, 20%); 
+        }
+        .box{
+            border: 1px solid white;
+           width: 700px;
+           height: 500px;
+           margin-left:350px; 
+           margin-top:50px;
+           border-radius: 30px;
+           background: white;
+           overflow: hidden;
+            
+        }
+        .img01 img{
+            margin-top: 20px;
+            height: 450px; 
+            border-radius: 10px;
+            margin-left:380px;
+            
+        }
+        .text01{
+            width: 320px;
+            font-family: var(--font-family1);
+            font-size: 40px;
+            color: hsl(234, 29%, 20%);
+            font-weight: var(--Weights);
+            font-weight: 800;
+            margin-top: -400px;
+            margin-left: 40px;   
+        }
+        .text02{
+            color: hsl(235, 18%, 26%);
+            margin-left: 40px;
+            width: 350px;
+        }
+        .img02 img{
+            
+            width: 20px;
+            margin-left: 40px; 
+            margin-top: 20px;
+        }
+        .text03 {
+            color: hsl(235, 18%, 26%);
+            margin-left: 70px;
+            margin-top: -21px;
+            width: 300px;
+        }
+        .img03 img{
+            
+            width: 20px;
+            margin-left: 40px; 
+            margin-top: 20px;
+        }
+        .text04{
+            color: hsl(235, 18%, 26%);
+            margin-left: 70px;
+            margin-top: -21px;
+            width: 300px;
+
+        }
+        .img04 img{
+            width: 20px;
+            margin-left: 40px; 
+            margin-top: 20px;
+        }
+        .text05{
+            color: hsl(235, 18%, 26%);
+            margin-left: 70px;
+            margin-top: -21px;
+            width: 300px;
+        }
+        .email{
+            margin-left: 40px; 
+            margin-top: 30px;
+            color: hsl(234, 29%, 20%);
+            font-size: 12px;
+            font-weight: 800;
+
+        }
+        .inputemil{
+            margin-left: 40px; 
+            margin-top: 20px;
+        }
+        .inputemil input{
+            height: 50px;
+            width: 300px;
+            border-radius: 10px;
+            border: 1px solid hsl(231, 7%, 60%) ;
+        }
+        .sub{
+            margin-left: 40px; 
+            margin-top: 20px;
+            width: 300px;
+        }
+        .sub button{
+            height: 50px;
+            width: 300px;
+            border-radius: 10px;
+            border: 1px solid hsl(231, 7%, 60%);
+            background-color: hsl(235, 18%, 26%);
+            color: white;
+        }
+        .sub button:hover{
+            transition: 2s;
+           background-image: linear-gradient(to right,hsl(4,100%,67%),hsl(4,100%,67%),orange);
+           
+        }
+        .sub a{
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+        }
+        .error-message{
+            color: brown;
+            padding-left: 250px;
+            transform: translateY(-150px); 
+            
+        }
+        .error-border  {
+            
+            background-color:rgb(235, 197, 197);
+            border: 1px solid red;
+            border-color: red;
+            border: red;
+        }
+        .img05{
+            margin-top: 40px;
+        }
+        @media (max-width: 750px){
+            body{
+                width: 354px;
+                
+            }
+            .box{
+                border: 1px solid white;
+               width: 354px;
+               height: 700px;
+               margin-left: 0%;
+               margin-top: 0%;
+               border-radius: 0%;
+               background: white;
+                
+            }
+            .img05{
+                margin-top: -700px;
+ 
+            }
+            .text01{
+                width: 320px;
+                font-family: var(--font-family1);
+                font-size: 40px;
+                color: hsl(234, 29%, 20%);
+                font-weight: var(--Weights);
+                font-weight: 800;
+                margin-top: -242px;
+                margin-left: 10px;   
+            }
+            .text02{
+                color: hsl(235, 18%, 26%);
+                margin-left: 10px;
+                width: 350px;
+
+            }
+            .img02 img{
+                
+                width: 20px;
+                margin-left: 10px; 
+                margin-top: 20px;
+            }
+            .text03 {
+                color: hsl(235, 18%, 26%);
+                margin-left: 40px;
+                margin-top: -21px;
+                width: 300px;
+            }
+            .img03 img{
+                
+                width: 20px;
+                margin-left: 10px; 
+                margin-top: 20px;
+            }
+            .text04{
+                color: hsl(235, 18%, 26%);
+                margin-left: 40px;
+                margin-top: -21px;
+                width: 300px;
+    
+            }
+            .img04 img{
+                width: 20px;
+                margin-left: 10px; 
+                margin-top: 20px;
+            }
+            .text05{
+                color: hsl(235, 18%, 26%);
+                margin-left: 40px;
+                margin-top: -21px;
+                width: 300px;
+            }
+            .email{
+                margin-left: 10px; 
+                margin-top: 30px;
+                color: hsl(234, 29%, 20%);
+                font-size: 12px;
+                font-weight: 800;
+    
+            }
+            .inputemil{
+                margin-left: 10px; 
+                margin-top: 20px;
+            }
+            .sub{
+                margin-left: 10px; 
+                margin-top: 20px;
+                width: 300px;
+            }
+
+
+            
+            
+
+
+
+        }
+        
+        
+
+     
+     
+
+

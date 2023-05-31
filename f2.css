@@ -1,0 +1,102 @@
+@import url('https://fonts.google.com/specimen/Roboto');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(234, 29%, 20%);
+}
+:root{
+    --font-family1:'[Roboto]',sans-serif;
+    --Weights: 400,700;
+}
+.boxx{
+    border: 1px solid white;
+   width: 400px;
+   height: 400px;
+   margin-left:460px; 
+   margin-top:90px;
+   border-radius: 30px;
+   background: white;
+}
+.imgg01 img{
+    margin-left: 50px;
+    margin-top: 40px;
+
+}
+.textt01{
+    color: hsl(234, 29%, 20%);
+    font-family: var(--font-family1);
+    font-size: 40px;
+    font-weight: var(--Weights);
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.textt02{
+    color: hsl(235, 18%, 26%);
+     margin-left: 40px;
+    width: 350px;
+    margin-left: 50px;
+}
+.subb{
+    margin-left: 50px; 
+    margin-top: 20px;
+}
+.subb button{
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid hsl(231, 7%, 60%);
+    background-color: hsl(235, 18%, 26%);
+    color: white;
+}
+.subb a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    justify-content: 
+}
+.subb button:hover{
+    transition: 2s;
+   background-image: linear-gradient(to right,hsl(4,100%,67%),hsl(4,100%,67%),orange);
+   
+}
+@media (max-width: 750px){
+    .boxx{
+        border: 1px solid white;
+       width: 354px;
+       height: 630px;
+       margin-left:0%; 
+       margin-top:0%;
+       border-radius: 0%;
+       background: white;
+    }
+    .imgg01 img{
+        margin-left: 10px;
+        margin-top: 40px;
+    
+    }
+    .textt01{
+        color: hsl(234, 29%, 20%);
+        font-family: var(--font-family1);
+        font-size: 40px;
+        font-weight: var(--Weights);
+        font-weight: 700;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .textt02{
+        color: hsl(235, 18%, 26%);
+         margin-left: 10px;
+        width: 350px;
+        margin-top: 10px;
+
+    }
+    .subb{
+        margin-left: 10px; 
+        margin-top: 280px;
+    }
+
+}
